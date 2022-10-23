@@ -65,6 +65,25 @@ getQuptes();
 newQuoteBtn.addEventListener("click", newQupte);
 
 /*
+async function getQuptes1() {
+   loading();
+   try {
+      await fetch("https://type.fit/api/quotes")
+         .then((res) => {
+            return res.json();
+         })
+         .then((res) => {
+            // console.log("This is response", res);
+            // console.log("This is response", res[10].text);
+         });
+   } catch (err) {
+      console.log(err);
+   }
+}
+getQuptes1();
+
+*/
+/*
 //Show quotes from local file (quotes.js)
 function newQupte() {
       //Pick a random quote from apiQuotes array
